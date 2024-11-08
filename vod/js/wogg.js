@@ -9,7 +9,7 @@ import {} from '../../core/uzUtils.js'
 class Wogg20240929 extends WebApiBase {
     constructor() {
         super()
-        this.webSite = 'http://mogg.小胡.top'
+        this.webSite = 'http://mogg.小胡.top';
     }
     /**
      * 异步获取分类列表的方法。
@@ -115,11 +115,11 @@ class Wogg20240929 extends WebApiBase {
 
                     let vItems = $(item).next().find('a')
                     let value = vItems
-                        .map((i, el) => {
+                        。map((i, el) => {
                             let text = $(el).text().trim() // 获取并去除空白字符
                             return text ? text : null // 只有非空的文本才返回
                         })
-                        .get() // 将 jQuery 对象转换为普通数组
+                        。get() // 将 jQuery 对象转换为普通数组
                         .filter(Boolean) // 过滤掉 null 和空字符串
                         .join(', ') // 用逗号和空格分割
 
