@@ -9,7 +9,7 @@ import {} from '../../core/uzUtils.js'
 class Wogg20240929 extends WebApiBase {
     constructor() {
         super()
-        this.webSite = 'https://www.wogg.net'
+        this.webSite = 'http://mogg.小胡.top'
     }
     /**
      * 异步获取分类列表的方法。
